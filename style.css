@@ -1,0 +1,171 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background: #282c34;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #61dafb;
+}
+
+/* Estilos da seção hero */
+.hero {
+    background: #61dafb;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero .cta-button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    background: #282c34;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+}
+
+.hero .cta-button:hover {
+    background: #1f2025;
+}
+
+/* Estilos das seções */
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Estilos dos serviços */
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    max-width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+/* Estilos do portfólio */
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex: 1;
+    max-width: 30%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos do formulário de contato */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #61dafb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #1f2025;
+}
+
+/* Estilos do rodapé */
+footer {
+    background: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
